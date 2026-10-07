@@ -22,7 +22,7 @@ echo "✓ Found $PYTHON_VERSION"
 # Install dependencies
 echo ""
 echo "Installing dependencies..."
-pip3 install "mcp[cli]>=1.0.0" "httpx[socks]>=0.27.0" "pydantic>=2.0.0" --quiet
+pip3 install "mcp[cli]>=1.0.0,<2" "httpx[socks]>=0.27.0" "pydantic>=2.0.0" --quiet
 
 echo "✓ Dependencies installed"
 
