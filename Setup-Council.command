@@ -37,7 +37,7 @@ echo ""
 
 # Step 1: Install Python dependencies
 echo "Step 1: Installing Python dependencies..."
-pip3 install "mcp[cli]>=1.0.0" "httpx[socks]>=0.27.0" "pydantic>=2.0.0" --quiet 2>&1
+pip3 install "mcp[cli]>=1.0.0,<2" "httpx[socks]>=0.27.0" "pydantic>=2.0.0" --quiet 2>&1
 echo "✓ Dependencies installed"
 echo ""
 
